@@ -1,0 +1,81 @@
+body {
+    background-color: #2c3e50; /* Color de fondo de la página */
+    display: flex;
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    height: 100vh; /* La altura de la página es del 100% de la ventana */
+    margin: 0; /* Sacamos los márgenes*/
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+/* Estilo para el contenedor */
+.container {
+    background-color: #f2ff00; /* Color de fondo del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Apenas un poco de sombra*/
+    padding: 20px; /* Espacio entre los elementos */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    width: 100%; /* El ancho del contenedor es del 100% del contenedor padre */
+    box-sizing: border-box; /* Incluye padding y border en el width */
+    text-align: center; /* Centrado de texto */
+}
+
+/* Ejemplo de estilo para el contenido dentro del contenedor */
+.container h1 {
+    color: #333333; /* Color del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.container p {
+    color: #666666; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo para un botón dentro del contenedor */
+.container button {
+    border: none;  /* Sin borde */
+    color: rgb(0, 0, 0); /* Color del texto en negro */
+    padding: 14px 28px; /* Relleno interno: 14px arriba y abajo, 28px a los lados */
+    cursor: pointer; /* Muestra el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados a 5px */
+    display: inline-block; /* Muestra el elemento como un bloque en línea */
+    margin: 5px;  /* Margen externo de 5px en todos los lados */
+}
+button {
+    background: linear-gradient(to right, #FF9900, #FFCC00); /* Naranja a amarillo */
+    color: #000; /* Texto negro para contraste */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio de 10px arriba y abajo, 20px a los lados */
+    border-radius: 5px; /* Bordes redondeados con un radio de 5px */
+    cursor: pointer; /* Muestra el cursor al pasar por encima */
+}
+
+.container button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+}
+
+
+input{
+    background-color: #fff; /* Fondo blanco */
+    color: #333; /* Texto gris oscuro */
+    border: 2px solid #FFCC00; /* Borde amarillo */
+    padding: 8px; /* Espacio de 8px a todos los lados */
+    border-radius: 5px;  /* Bordes redondeados a 5px */
+    margin-bottom: 10px; /* Espacio inferior */
+    text-align: center; /* Elementos al centro */
+    text-transform: uppercase; /* Hacemos que la letra ingresada se muestre en mayuscula */
+}   
+
+.palabraSecreta{
+    text-transform: uppercase; /* Hacemos que la palabra secreta se muestre en mayuscula */
+}
+
+#mensaje-final{
+    text-align: center; /* texto al centro */
+    height: 25px; /* tamaño de texto de 25px */
+}
+
+
+
